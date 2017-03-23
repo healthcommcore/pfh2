@@ -1,0 +1,114 @@
+<b>Week 1</b><br>
+<table border=1 cellpadding=0 cellspacing=0>
+<tr>
+    <td>radiation</td>
+    <td>surgery</td>
+    <td>chemotherapy</td>
+    <td>unsure/other</td>
+    <td>&nbsp;</td>
+</tr>
+<tr><td>X</td><td>X</td><td>X</td><td>&nbsp;</td><td>Like 33% of other Partnership for Health members, you had <b>chemotherapy, radiation, and surgery</b>.<br><br>Radiation and chemotherapy can affect the way the heart works, and can lead to late effects that involve the lungs and lung disease. Smoking can seriously affect the way these organs work &#150; and make any late effects much more serious.</td></tr>
+<tr><td>X</td><td>X</td><td>&nbsp;</td><td>&nbsp;</td><td>Like 14% of other Partnership for Health members, you had <b>radiation and surgery</b>.<br><br>Radiation can lead to future heart disease and can also cause problems with the lungs. Smoking can affect the way these organs work &#150; and make any late effects much more serious.</td></tr>
+<tr><td>&nbsp;</td><td>X</td><td>X</td><td>&nbsp;</td><td>Like 15% of other Partnership for Health members, you had <b>chemotherapy and surgery</b>.<br><br>Did you know that chemotherapy can affect the heart and lungs? Smoking can also affect the way these organs work &#150; and make any late effects much more serious.</td></tr>
+<tr><td>X</td><td>&nbsp;</td><td>X</td><td>&nbsp;</td><td>Like 7% of other Partnership for Health members, you had both <b>chemotherapy and radiation</b>.<br><br>These treatments can affect the way the heart works, and can lead to late effects that involve the lungs and lung disease. Smoking can seriously affect the way these organs work &#150; and make any late effects much more serious.</td></tr>
+<tr><td>X</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Like 12% of other Partnership for Health members, you had <b>radiation</b>.<br><br>Radiation can lead to future heart disease and can also cause problems with the lungs. Smoking can affect the way these organs work &#150; and make any late effects much more serious.</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>X</td><td>&nbsp;</td><td>Like 12% of other Partnership for Health members, you had <b>chemotherapy</b>.<br><br>Did you know that chemotherapy can affect the heart and lungs? Smoking can also affect the way these organs work &#150; and make any late effects much more serious.</td></tr>
+<tr><td>&nbsp;</td><td>X</td><td>&nbsp;</td><td>&nbsp;</td><td>Like the rest of the Partnership for Health community, you beat your childhood cancer and are now an adult survivor. You may have had some treatments that cause late effects &#150; side effects that can appear later on and be long-lasting. Smoking can affect the way many parts of the body work, and make late effects much more serious.</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Like the rest of the Partnership for Health community, you beat your childhood cancer and are now an adult survivor. You may have had some treatments that cause late effects &#150; side effects that can appear later on and be long-lasting. Smoking can affect the way many parts of the body work, and make late effects much more serious.</td></tr>
+</table><br><br>
+
+<b>Week 2, PRECONTEMPLATION</b><br>
+<table border=1 cellpadding=0 cellspacing=0>
+<tr>
+    <td>addicted</td>
+    <td>&nbsp;</td>
+</tr>
+<tr><td>X</td><td>When you took the survey, your answers suggested that you may be addicted to the nicotine in cigarettes.<br><br>If you ever decide to give quitting a try, <a href="health_pharmo.php" class="column1Link">quit-smoking medications</a> are available at <b>no cost</b> from Partnership for Health. There's one that's right for you!</td></tr>
+<tr><td>&nbsp;</td><td>When you took the survey, your answers suggested that you're more of a <b>social smoker</b> &#150; maybe you light up when you're with friends, but you don't get the <b>urge</b> to smoke.<br><br>That means that if you're ever ready to think about quitting, it won't be quite as challenging. And PFH has <b>free</b> <a href="health_pharmo.php" class="column1Link">quit-smoking medications</a> that can help, even if you're only a social smoker.</td></tr>
+</table><br>
+<b>Week 2, CONTEMPLATION</b><br>
+<table border=1 cellpadding=0 cellspacing=0>
+<tr>
+    <td>addicted</td>
+    <td>&nbsp;</td>
+</tr>
+<tr><td>X</td><td>When you took the survey, your answers suggested that you may be addicted to the nicotine in cigarettes.<br><br>Now that you're thinking about quitting, be sure to check out the <a href="health_pharmo.php" class="column1Link">quit-smoking medications</a> available at <b>no cost</b> from Partnership for Health. There is one that's right for you!</td></tr>
+<tr><td>&nbsp;</td><td>When you took the survey, your answers suggested that you're more of a <b>social smoker</b> &#150; maybe you light up when you're with friends, but you don't get the <b>urge</b> to smoke.<br><br>That means that if you're thinking about quitting, it won't be quite as challenging. And PFH has <b>free</b> <a href="health_pharmo.php" class="column1Link">quit-smoking medications</a> that can help, even if you're only a social smoker.</td></tr>
+</table><br>
+
+
+
+    // PER-SESSION CONTENT: Week 2
+    <? } elseif (($userSpecs["stage"]==3) && ($userSpecs["friendsSmoke"]==1)) { ?>
+<span class="greenBarTitle">Got friends or family who smoke?</span><br><br>
+Everyone knows someone who smokes. This can make quitting more challenging, but <b>not impossible</b>!<br><br>Check out <a href="health_tips-socialSupport.php" class="column1Link">Help from Friends and Family</a> to get you thinking about the people in your life who can support you and how they can <b>help</b>.<br><br>
+<a href="health_tips-socialSupport.php" class="column1Link">Learn more now!</a><br><br>
+    <? } elseif (($userSpecs["stage"]==3) && ($userSpecs["friendsSmoke"]!=1)) { ?>
+<span class="greenBarTitle">Got friends or family who smoke?</span><br><br>
+Everyone knows someone who smokes.<br><br>Check out <a href="health_tips-socialSupport.php" class="column1Link">Help from Friends and Family</a> to get you thinking about the people in your life who can support you and how they can help.<br><br>
+<a href="health_tips-socialSupport.php" class="column1Link">Learn more now!</a><br><br>
+    <? } elseif ($userSpecs["stage"]==4) { ?>
+You're on the road to becoming a non-smoker! By quitting, you're not only improving your health now, but you're <b>lowering your risk</b> for <a href="news_late-effects.php" class="column1Link">late effects</a> and secondary cancers down the road.<br><br>Now's probably a good time to think about how to control cravings &#150; try our <a href="health_manual-4b.php" class="column1Link">interactive exercise</a> <b>before</b> those urges to smoke hit.<br><br>
+    <? }
+    }
+
+    // PER-SESSION CONTENT: Week 3
+    if ($weekNum==3) {
+        if ($userSpecs["maritalStatus"]<3) {
+            if ($userSpecs["stage"]==1) {
+                if ($userSpecs["partnerSmokes"]==1) { ?>
+<span class="greenBarTitle">Who's Smoking in Your House?</span><br><br>
+You said that your partner or spouse smokes cigarettes. Did you know that Partnership for Health can give quit-smoking medication to you <b>and</b> your partner or spouse at <b>no charge</b>? These medications really do help smokers quit &#150; and if you ever decide you're ready, you can try it together!<br><br>
+<b><a href="health_pharmo.php" class="column1Link">Read more</a> about getting free quit-smoking medication for you and your spouse or partner.</b><br><br>
+                <? } else { ?>
+<span class="greenBarTitle">Who's Smoking in Your House?</span><br><br>
+You said that your partner or spouse doesn't smoke cigarettes. That's great! It means that if you are ever ready to quit smoking, he or she can serve as a role model and a source of support for you. Plus, you'll have fewer triggers to smoke when you're at home. Remember, Partnership for Health offers quit-smoking medication at <b>no charge</b> &#150; something that will make quitting easier for you&#133; and the person you live with!<br><br>
+<b><a href="health_pharmo.php" class="column1Link">Read more</a> about getting free quit-smoking medication.</b><br><br>
+                <? }
+            } elseif ($userSpecs["stage"]==2) {
+                if ($userSpecs["partnerSmokes"]==1) { ?>
+<span class="greenBarTitle">Who's Smoking in Your House?</span><br><br>
+You said that your partner or spouse smokes cigarettes. Did you know that Partnership for Health can give quit-smoking medication to you <b>and</b> your partner or spouse at <b>no charge</b>? These medications really do help smokers quit &#150; and if you're ready, you can try it together!<br><br>
+<b><a href="health_pharmo.php" class="column1Link">Read more</a> about getting free quit-smoking medication for you and your spouse or partner.</b><br><br>
+                <? } else { ?>
+<span class="greenBarTitle">Who's Smoking in Your House?</span><br><br>
+You said that your partner or spouse doesn't smoke cigarettes. That's great! It means that if you are ever ready to quit smoking, he or she can serve as a role model and a source of support for you. Plus, you'll have fewer triggers to smoke when you're at home. Remember, Partnership for Health offers quit-smoking medication at <b>no charge</b> &#150; something that will make quitting easier for you&#133; and the person you live with!<br><br>
+<b><a href="health_pharmo.php" class="column1Link">Read more</a> about getting free quit-smoking medication.</b><br><br>
+                <? }
+            } elseif ($userSpecs["stage"]==3) {
+                if ($userSpecs["partnerSmokes"]==1) { ?>
+<span class="greenBarTitle">Who's Smoking in Your House?</span><br><br>
+You said that your partner or spouse smokes cigarettes. That might make quitting more challenging, but not impossible! Be sure to think ahead of time about how you'll handle cravings if someone around the house still smokes. Check out <b><a href="health_tips-socialSupport.php" class="column1Link">How to Get Help from Friends and Family</a></b> for ideas &#150; <b>before</b> your Quit Date. Getting help from people in your corner really can make a difference! <br><br>
+                <? } else { ?>
+<span class="greenBarTitle">Who's Smoking in Your House?</span><br><br>
+You said that your partner or spouse doesn't smoke cigarettes. That's great! It means that he or she can serve as a role model and a source of support for you. Plus, you'll have fewer triggers to smoke when you're at home. As your Quit Date gets closer, be sure to check out <b><a href="health_tips-socialSupport.php" class="column1Link">How to Get Help from Friends and Family</a></b> for ideas. Getting help from people in your corner really can make a difference! <br><br>
+                <? }
+            } elseif ($userSpecs["stage"]==4) {
+                if ($userSpecs["partnerSmokes"]==1) { ?>
+<span class="greenBarTitle">Who's Smoking in Your House?</span><br><br>
+You said that your partner or spouse smokes cigarettes. That might make staying quit more challenging, but not impossible! Be sure to talk to your spouse or partner about supporting you by avoiding smoking around you and sticking to smoke-free zones of the house. <br><br>
+And think about all the <b><a href="health_manual-4b2.php" class="column1Link">people and places</a></b> that make you want to smoke &#150; so you can plan what to do instead!<br><br>
+                <? } else { ?>
+<span class="greenBarTitle">Who's Smoking in the House?</span><br><br>
+You said that your partner or spouse doesn't smoke cigarettes. That's great! It means that he or she can serve as a role model and a source of support for you. Plus, you'll have fewer triggers to smoke when you're at home. <br><br>
+Be sure to think about the kinds of <a href="health_tips-socialSupport.php#thingsToSay" class="column1Link"><b>things you'll want to say</b></a> to your spouse or partner while you're quitting. Helping people understand what you're going through can make a big difference!<br><br>
+                <? }
+            }
+
+        } elseif ($userSpecs["maritalStatus"]>2) {
+            if ($userSpecs["stage"]==1) { ?>
+You said that you don't live with any smokers. That's great! That means that you'll have fewer temptations to smoke, should you ever decide to quit.<br><br>
+Remember, Partnership for Health offers quit-smoking medication at <b>no charge</b>. This really helps smokers quit!<br><br>
+<b><a href="health_pharmo.php" class="column1Link">Read more</a> about getting free quit-smoking medication.</b><br><br>
+            <? } elseif ($userSpecs["stage"]==2) { ?>
+You said that you don't live with any smokers. That's great! That means that you'll have fewer temptations to smoke, should you decide to quit.<br><br>
+Remember, Partnership for Health offers quit-smoking medication at <b>no charge</b>. This really helps smokers quit!<br><br>
+<b><a href="health_pharmo.php" class="column1Link">Read more</a> about getting free quit-smoking medication.</b><br><br>
+            <? } elseif ($userSpecs["stage"]==3) { ?>
+You said that you don't live with any smokers. That's great! It means that you'll have fewer triggers to smoke when you're at home. As your Quit Date gets closer, be sure to check out <b><a href="health_tips-socialSupport.php" class="column1Link">How to Get Help from Friends and Family</a></b> for ideas. Getting help from people in your corner really can make a difference! <br><br>
+            <? } elseif ($userSpecs["stage"]==4) { ?>
+You said that you don't live with any smokers. That's great! It means that you'll have fewer triggers to smoke when you're at home. <br><br>
+Be sure to think about the kinds of <a href="health_tips-socialSupport.php#thingsToSay" class="column1Link"><b>things you'll want to say</b></a> to people you know while you're quitting. Helping people understand what you're going through can make a big difference!<br><br>
+            <? }
+        }
+    }

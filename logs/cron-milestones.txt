@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------------
+
+0 user(s) moved in stage1
+0 user(s) moved in stage2 
+1 user(s) moved in stage3
+
+
+Queries and results:
+INSERT INTO PFHMilestones(userID, stageID, milestone, startDate)  VALUES ('242', '3', (3+1), 1142304401)  - successful
+
+
+ Log of cron milestone check/change function run at Mon, 13 Mar 2006 21:47:23 -0500
+-----------------------------------------------------------------------------------
+
+0 user(s) moved in stage1
+0 user(s) moved in stage2 
+1 user(s) moved in stage3
+
+
+Queries and results:
+INSERT INTO PFHMilestones(userID, stageID, milestone, startDate)  VALUES ('242', '3', (3+1), 1142304443)  - successful

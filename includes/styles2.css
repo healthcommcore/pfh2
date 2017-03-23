@@ -1,0 +1,16 @@
+    BODY {background:#FFFFFF url(images/bgPurple.gif) repeat-y; color:#696B6A; font-size:9pt; font-family:Georgia,New York,Times New Roman,times,serif; margin:0px;}
+    TD,DIV {color:#696B6A; font-size:9pt; font-family:Georgia,New York,Times New Roman,times,serif;}
+
+    A {color:#D4834E; text-decoration:none;}
+
+    .navLink {color:#7984B0; font-size:8pt; font-family:verdana,arial,sans-serif;}
+    .column1Text {color:#FFFFFF; font-size:8pt; font-family:verdana,arial,sans-serif;}
+    .column2Text {color:#3E3F3D; font-size:9pt; line-height:14pt;}
+    .column3Text {color:#6E84A2; font-size:8pt;}
+
+    .subnav1 {position:absolute; visibility:hidden; top:78px; left:335px;}
+    .subnav2 {position:absolute; visibility:hidden; top:78px; left:440px;}
+    .subnav3 {position:absolute; visibility:hidden; top:78px; left:545px;}
+    .subnav4 {position:absolute; visibility:hidden; top:78px; left:650px;}
+    .subnavText {color:#7196CD; font-size:8pt; font-family:verdana,arial,sans-serif; line-height:11pt;}
+    .subnavLink {color:#7196CD; font-size:8pt; font-family:verdana,arial,sans-serif; text-decoration:none;}

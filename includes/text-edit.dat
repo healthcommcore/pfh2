@@ -1,0 +1,12 @@
+datLoaded=0
+&scriptLOAD=http://hccweb1.dfci.harvard.edu/PFH/text-edit_LOAD.php
+&scriptSAVE=http://hccweb1.dfci.harvard.edu/PFH/text-edit_SAVE.php
+&scriptAUTO=http://hccweb1.dfci.harvard.edu/PFH/text-edit_AUTO.php
+&scriptTIME=http://hccweb1.dfci.harvard.edu/PFH/text-edit_TIME.php
+&isTIMED=1
+&minutesTOTAL=5
+&showTimerWARNING=1
+&minutesWARNING=2
+&doAUTOSAVE=1
+&secondsAUTOSAVE=30
+&datLoaded=1

@@ -1,0 +1,78 @@
+OLD AD SWAP-OUT
+  - could Adam go through the ads list, and say: for every out-dated ad, here is what I intended to replace it?
+  
+NEW-FORUM-MESSAGE AD
+  - the one up there right now was only put there as a placeholder
+
+SHOULD THERE BE LINKS IN HERE (about us copy)  
+  - Partnership for Health is a project of the Dana-Farber Cancer Institute, St. Jude's Children's Research Hospital, Princess Margaret Hospital, and Memorial Sloan-Kettering Cancer Center. Funding has been provided by the National Cancer Institute.
+
+FROM FAQ (needs re-labeling / linkage)
+  - Visit the Terms of Use/Privacy Policy page for more information.
+  - If you choose to, you have the option to receive a dose-appropriate amount of free quit-smoking medication (Zyban or the patch).
+  
+HELP PAGE
+  - need to refine/replace rollover effect
+
+SHOULD THERE BE LINKS HERE (about you homepage)
+  - keep a private journal... think about the things you like and don't like... think about when, where, and why you smoke
+
+"IMPORTANT" QUALIFIER CONFUSES PEOPLE
+  - ...indicate how much you agree with each sentence (I'm embarrassed to have to smoke: not important, slightly important, moderately important, etc)
+
+REFERENCE STYLE
+
+"YOUR PAGES" - empty
+  - what would this page have at first? / over time?
+
+YOUR JOURNAL PAST-ENTRIES
+  - right-hand nav breaks out of style
+  - same for thank-you-for-new-submission page
+
+MAIN NEWS-ARCHIVE STORY not in side-nav
+  - "SECONDARY CANCERS IN SURVIVORS"
+  
+YOUR MONEY / YOUR LIFE
+  - how much do you spend... validation doesn't limit migh amounts
+
+WHAT YOU'RE SMOKING
+  - answer popup should RE-state Question number
+  - HealthForums off-site link showed: "PAGE NOT FOUND"
+
+RESOURCES: CLINICS
+  - long links don't wrap well
+RESOURCES: WEBSITES
+  - order of info consistency... 
+  - NCSD Foundation, Email: ncsd@aol.com, www.ncsdf.org
+  - American Foundation for the Blind, www.afb.org, Email: afbinfo@afb.org
+  - The Brain Tumor Society, www.tbts.org, (800) 770-TBTS
+  - The Heath Resource Center, (800) 544-3284, www.heath.gwu.edu
+
+SUCCESS STORIES
+  - no Rich copy
+  - Next/Prev nav too close to copy on "Marty"
+  - only 1 ad on "Marty"
+  
+ON YOUR MIND
+  - many ????
+  
+MEDICAL EXPERTS
+  - should this have some intro copy, saying why these people are affiliated with THIS project - are they available for questions, etc??
+
+PATCH/ZYBAN
+  - should top of page(s) contain jump links (a la FAQ)?
+
+COMMUNITY / ARE YOU DEPENDENT?
+  - doesn't "remember" your results for return visits
+
+GREEN BAR
+  - if you're on BODYGUY, and green bar content would normally CALL OUT BodyGuy, should there some logical override?
+
+HEALTHY TIPS
+  - homepage needs new organization
+  - image has wacky alingment in "Help from Friends and Family"
+  - PAGE TITLE GRAPHICS: 2nd Smoke, Breakfast, Nutrition Label, Supermarket Shopping, Multivitamins, Serving Size
+  - for NUTRITION SECTION... pages of short copy, but with continuation or association of topical content, lose the nav for that WAY DOWN the right hand side of the page
+
+
+
